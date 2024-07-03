@@ -1,0 +1,43 @@
+.blog-view {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content, .sidebar {
+    width: 100%;
+  }
+
+  .sidebar {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .content, .sidebar {
+    padding: 10px;
+  }
+}

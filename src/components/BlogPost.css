@@ -1,0 +1,27 @@
+.blog-post {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 800px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.blog-post-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .blog-post {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-post {
+    padding: 10px;
+  }
+}

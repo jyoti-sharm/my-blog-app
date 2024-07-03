@@ -1,0 +1,56 @@
+.sidebar {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+  }
+  
+  .sidebar .highlight {
+    color: #007bff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul .article-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar ul .article-item img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    }
+  
+  .sidebar .article-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar .article-title {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .sidebar .article-date {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .sidebar .view-all {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
